@@ -178,7 +178,7 @@ int main() {
     printf("=== Tests de tri avec différents types et ordres ===\n\n");
     
     // Test 1: Tri d'entiers
-    printf("1. Tri d'entiers:\n");
+    printf("1. Tri d entiers:\n");
     int intArr[] = {64, 34, 25, 12, 22, 11, 90};
     int intSize = sizeof(intArr) / sizeof(intArr[0]);
     
@@ -201,7 +201,6 @@ int main() {
     
     printf("\n");
     
-    // Test 2: Tri de chaînes de caractères
     printf("2. Tri de chaînes de caractères:\n");
     char* stringArr[] = {"banana", "apple", "cherry", "date", "elderberry"};
     int stringSize = 5;
